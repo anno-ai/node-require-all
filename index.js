@@ -1,4 +1,3 @@
-const includeAll = require('include-all')
 const merge = require('lodash/merge')
 
 module.exports = {
@@ -14,6 +13,6 @@ module.exports = {
       filter: /(.+)\.[jt]s$/,
       optional: true // silent errors when requiring
     })
-    return includeAll(config)
+    return require('include-all')(config)
   }
 }

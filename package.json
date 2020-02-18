@@ -1,0 +1,23 @@
+{
+  "name": "@annoai/require-all",
+  "version": "1.0.0",
+  "description": "A simple method to require all Javascript and Typescript files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anno-ai/node-require-all.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anno-ai/node-require-all/issues"
+  },
+  "homepage": "https://github.com/anno-ai/node-require-all#readme",
+  "dependencies": {
+    "include-all": "^4.0.3",
+    "lodash": "^4.17.15"
+  }
+}
